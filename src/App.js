@@ -15,13 +15,17 @@ import Counter2 from './components/Counter2';
 import Greet4 from './components/Greet4';
 import Pract from './components/Pract';
 import EventBind from './components/EventBind';
+import ParentC from './components/ParentC';
 
 
 function App() {
   return (
     <div className="App">
+
+
+<ParentC></ParentC>      
 {/* <Pract/> */}
-<EventBind></EventBind>
+{/* <EventBind></EventBind> */}
 {/* <Greet4 name="Amol" lastName="Shinde"></Greet4> */}
 {/* <Counter2></Counter2> */}
 {/* <Counter></Counter> */}
