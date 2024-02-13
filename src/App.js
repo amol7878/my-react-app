@@ -13,18 +13,19 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import Counter2 from './components/Counter2';
 import Greet4 from './components/Greet4';
-import Pract from './components/Pract';
+import Pract from './components/PractCr';
 import EventBind from './components/EventBind';
 import ParentC from './components/ParentC';
+import ParentPr from './components/ParentPr';
+import PractPr from './components/PractPr';
 
 
 function App() {
   return (
     <div className="App">
-
-
-<ParentC></ParentC>      
-{/* <Pract/> */}
+<PractPr></PractPr>
+{/* <ParentPr></ParentPr> */}
+{/* <ParentC></ParentC>       */}
 {/* <EventBind></EventBind> */}
 {/* <Greet4 name="Amol" lastName="Shinde"></Greet4> */}
 {/* <Counter2></Counter2> */}
