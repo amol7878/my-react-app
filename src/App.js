@@ -20,6 +20,9 @@ import ParentPr from './components/ParentPr';
 import PractPr from './components/PractPr';
 
 
+
+
+
 function App() {
   return (
     <div className="App">

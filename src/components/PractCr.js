@@ -1,11 +1,9 @@
 import React from "react";
 
-let PractCr=function(props){
+let PractCr =function(props){
     return(
-        <div>
-            <button onClick={()=>props.greetHandler("AMOL")}>GREETDISPLAY</button>
-        </div>
+        <button onClick={()=>props.greetHandler()}>GEEETBUTTON</button>
     )
 }
 
-export default PractCr
+export default PractCr 

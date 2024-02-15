@@ -6,18 +6,20 @@ class PractPr extends Component{
         this.state={
             parentName:"Parent"
         }
-this.greetParent=this.greetParent.bind(this)
+        this.greetPaerent=this.greetPaerent.bind(this)
+
     }
-    greetParent(x){
-        alert(`${this.state.parentName} ${x}`)
+    greetPaerent(){
+        alert(`${this.state.parentName}`)
     }
     render(){
         return(
             <div>
-                <PractCr greetHandler={this.greetParent}></PractCr>
+                 <c greetHandler={this.greetPaerent}></c>
             </div>
+           
         )
     }
 }
 
-export default PractPr
+export default PractPr 
