@@ -18,7 +18,7 @@ import EventBind from './components/EventBind';
 import ParentC from './components/ParentC';
 import ParentPr from './components/ParentPr';
 import PractPr from './components/PractPr';
-
+import UserGreeting from './components/UserGreeting';
 
 
 
@@ -26,7 +26,8 @@ import PractPr from './components/PractPr';
 function App() {
   return (
     <div className="App">
-<PractPr></PractPr>
+<UserGreeting></UserGreeting>
+{/* <PractPr></PractPr> */}
 {/* <ParentPr></ParentPr> */}
 {/* <ParentC></ParentC>       */}
 {/* <EventBind></EventBind> */}
