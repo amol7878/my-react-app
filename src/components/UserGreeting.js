@@ -38,7 +38,7 @@ class UserGreeting extends Component {
     //     return this.state.isLogggedin?<div>Welcome Chinmay</div>:<div>Welcome Amol</div>
     // }
 
-    //  SHORT CIRCUIT
+    //  SHORT CIRCUIT APPROACH
 
     render(){
         return this.state.isLogggedin && <div>Welcome Chinmay</div>
