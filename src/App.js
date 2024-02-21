@@ -20,11 +20,14 @@ import ParentPr from './components/ParentPr';
 import PractPr from './components/PractPr';
 import UserGreeting from './components/UserGreeting';
 import Namelist from './components/Nameslist';
-
+import Namelistt from './components/Pract1C';
 function App() {
   return (
     <div className="App">
-<Namelist></Namelist>
+<Namelistt></Namelistt>
+
+
+{/* <Namelist></Namelist> */}
 {/* <UserGreeting></UserGreeting> */}
 {/* <PractPr></PractPr> */}
 {/* <ParentPr></ParentPr> */}
