@@ -21,12 +21,14 @@ import PractPr from './components/PractPr';
 import UserGreeting from './components/UserGreeting';
 import Namelist from './components/Nameslist';
 import Namelist2 from './components/Namelist2';
+import Namelist3 from './components/Pract1C';
+
 function App() {
   return (
     <div className="App">
 
-
-<Namelist2></Namelist2>
+<Namelist3></Namelist3>
+{/* <Namelist2></Namelist2> */}
 {/* <Namelist></Namelist> */}
 {/* <UserGreeting></UserGreeting> */}
 {/* <PractPr></PractPr> */}

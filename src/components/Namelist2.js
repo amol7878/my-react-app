@@ -1,8 +1,8 @@
 import React from "react";
-import Person from "./person";
+import Person from "./Person";
 function Namelist2() {
     let names = ["amol", "raj", "sanjay", "parachui"]
-    let namelist = names.map((names) => <h1>{names}</h1>)
+    let listName = names.map((names) => <h1>{names}</h1>)
 
     let personList = [
         {
@@ -26,7 +26,7 @@ function Namelist2() {
         }
     ]
     //personList = personList.map((person) => <h1>My first name is {person.firstName} and My lastName is {person.lastName}-{person.rollNo}</h1>)
-    personList.map((person)=> <Person person={person}/>)
+    personList=personList.map((person)=> <Person person={person}/>)
     return (
         // <div>
         //     <h1>{names[0]}</h1>
@@ -38,7 +38,7 @@ function Namelist2() {
         // names.map((names)=> <h1>{names}</h1>)
         <div>
             {/* {
-                namelist
+                listName
             } */}
             {personList}
         </div>
