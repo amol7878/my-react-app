@@ -22,12 +22,21 @@ import UserGreeting from './components/UserGreeting';
 import Namelist from './components/Nameslist';
 import Namelist2 from './components/Namelist2';
 import Namelist3 from './components/Pract1C';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/InlineStyle';
+import './components/appStyle.css'
+import style from './components/appStyle.module.css'
 
 function App() {
   return (
     <div className="App">
 
-<Namelist3></Namelist3>
+
+      {/* <h1 className='red'>Hello</h1>
+      <h1 className={style.green}>Hello</h1>
+      <Inline/> */}
+{/* <Stylesheet name="two"/> */}
+{/* <Namelist3></Namelist3> */}
 {/* <Namelist2></Namelist2> */}
 {/* <Namelist></Namelist> */}
 {/* <UserGreeting></UserGreeting> */}
