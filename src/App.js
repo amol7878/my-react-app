@@ -26,28 +26,33 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/InlineStyle';
 import './components/appStyle.css'
 import style from './components/appStyle.module.css'
-
+import MyStyleR from './components/MyStyleR';
+import InlineR from './components/InlineR'
+import styleT from './components/MyStyleR.module.css'
 function App() {
   return (
     <div className="App">
-
+      <h1 className='five'>Amol</h1>
+      <h1 className={styleT.eight}>Amol</h1>
+<InlineR/>
+      <MyStyleR nm="six" />
 
       {/* <h1 className='red'>Hello</h1>
       <h1 className={style.green}>Hello</h1>
       <Inline/> */}
-{/* <Stylesheet name="two"/> */}
-{/* <Namelist3></Namelist3> */}
-{/* <Namelist2></Namelist2> */}
-{/* <Namelist></Namelist> */}
-{/* <UserGreeting></UserGreeting> */}
-{/* <PractPr></PractPr> */}
-{/* <ParentPr></ParentPr> */}
-{/* <ParentC></ParentC>       */}
-{/* <EventBind></EventBind> */}
-{/* <Greet4 name="Amol" lastName="Shinde"></Greet4> */}
-{/* <Counter2></Counter2> */}
-{/* <Counter></Counter> */}
-{/* <Message></Message> */}
+      {/* <Stylesheet name="two"/> */}
+      {/* <Namelist3></Namelist3> */}
+      {/* <Namelist2></Namelist2> */}
+      {/* <Namelist></Namelist> */}
+      {/* <UserGreeting></UserGreeting> */}
+      {/* <PractPr></PractPr> */}
+      {/* <ParentPr></ParentPr> */}
+      {/* <ParentC></ParentC>       */}
+      {/* <EventBind></EventBind> */}
+      {/* <Greet4 name="Amol" lastName="Shinde"></Greet4> */}
+      {/* <Counter2></Counter2> */}
+      {/* <Counter></Counter> */}
+      {/* <Message></Message> */}
       {/* <MyComponent/>
       <MyComponentClass/>
       <MyFr/>
